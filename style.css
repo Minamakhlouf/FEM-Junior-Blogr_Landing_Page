@@ -6,9 +6,7 @@
     box-sizing: border-box;
 }
 
-img {
-    width: 100%; 
-}
+/* Nav */ 
 
 
 nav {
@@ -552,6 +550,11 @@ footer img {
     gap: 8px; 
 }
 
+.footer__anchor {
+    color: white; 
+    text-decoration: none;
+}
+
 @media screen and (min-width: 900px) {
     footer {
         flex-direction: row;
@@ -566,8 +569,5 @@ footer img {
         width: 50%; 
         justify-content: space-between;
     }
-    .footer__anchor {
-        color: white; 
-        text-decoration: none;
-    }
+
 }
